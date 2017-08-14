@@ -1,0 +1,80 @@
+/home/ = "C:Users"
+
+pwd = where you are
+cd = go or back some directory
+ls = show was have inside the directory
+tmp = create a temp
+/bin/ = files and programms
+$variavel 
+echo = print
+man = know more about a command ex: "man ls"
+cp = copy
+cd ../../ = back directory
+rm = remove a file
+rm -r  = remove a directory
+ls -l = long list
+ls -la = long list of all files
+cat fileName = display the entire file
+mv filename1 filename2 = move files, can use for directory
+chmod optionsPermission filename = change permissions
+cat = show was have inside the file
+grep = find a word and print then
+| = get result the first command and do the second command 
+wc - count something
+ wc -l = count lines
+ wc -c = byte
+ wx -m = caracter
+ wx -w = word
+file > file2 = create and copy to second 
+head = show the top of the file ex: "head -10 filename"
+tail = show the end ex: "tail -10 filename"
+diff = diff between files ex: "diff file1 file2 > /tmp/diff_1_2.txt"
+mkdir dirname = make a new directory
+. is you current directory
+.. is upper level directory 
+du = show the disk usage of the files and directories in filename ex:"du filename"
+------------------------------------------------
+VIM 
+
+vim test.txt = create and open file
+i = start to insert values
+[esc] = to leave the insert mode
+x = remove letters
+:w = to save
+:q = quit
+:wq = save and quit
+:q! = force a quit
+-------------------------------------------------
+
+find = search in the same directory ex:"find -name 'file'"
+grep = look inside the files where are string ex:"grep error test"
+egrep = support regular expressions
+zgrep = grep in conpressed files 
+
+-------------------------
+Redirect output
+program_name 2> error.log = copy a error to error.log
+if no have number in ">" is the same number um - default  '&>' = '>'
+>> = append
+command 2> /dev/null = silencing error
+-------------------------
+
+kill option processID
+ps =check the process running
+ ps -fu ubuntu = see the process by user
+ ps - ef = see every process runnig
+nohup launch a job in command nohup (background) ex: "nohup command-name &" 
+  & put the command to run in backgroud and 
+
+tar = create a path with all files/path you want ex:"tar -xvzf myarchive.tar.gz"
+gzip = compress just one path
+gunzip
+compress / uncompress
+zip/unzip
+scp = copy files and directories between remote hosts
+
+winSCP = copy files to host in your pc
+
+ 
+ 
+
